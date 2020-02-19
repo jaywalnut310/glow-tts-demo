@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+  <h1 style="color: red; border-bottom: 1px solid red;">We found there is a problem to play audios on FireFox. Please use another browsers in that case (Recommendation: Chrome).</h1>
+  <head>
+    <title>Audio Samples from "Glow-TTS: A Generative Flow for Text-to-Speech via Monotonic Alignment Search"</title>
+    <style>
+      div {
+        margin-bottom: 64px;
+      }
+    </style>
+  </head>
+  <body>
+    <article>
+      <header>
+        <h1>Audio Samples from "Glow-TTS: A Generative Flow for Text-to-Speech via Monotonic Alignment Search"</h1>
+      </header>
+    </article>
+    <div>
+      <b>Abstract:</b> Recently, text-to-speech (TTS) models such as FastSpeech and ParaNet have been proposed to generate mel-spectrograms from text in parallel. Despite the advantages, the parallel TTS models cannot be trained without guidance from autoregressive TTS models as their external aligners. In this work, we propose Glow-TTS, a flow-based generative model for parallel TTS that does not require any external aligner. We introduce Monotonic Alignment Search (MAS), an internal alignment search algorithm for training Glow-TTS. By leveraging the properties of flows, MAS searches for the most probable monotonic alignment between text and the latent representation of speech. Glow-TTS obtains an order-of-magnitude speed-up over the autoregressive TTS model, Tacotron 2, at synthesis with comparable speech quality, requiring only 1.5 seconds to synthesize one minute of speech in end-to-end. We further show that our model can be easily extended to a multi-speaker setting.
+      <div>
+        <audio controls preload="none"><source src="wavs/abs_ours.wav"></audio>
+      </div>
+    </div>
+    <div>
+      <h3>Single Speaker TTS</h3>
+      <p>But Mrs. Solomons could not resist the temptation to dabble in stolen goods, and she was found shipping watches of the wrong category to New York.</p>
+      <table>
+        <tbody>
+          <tr>
+            <th>GT</th>
+            <th>GT(WaveGlow)</th>
+            <th>Glow-TTS (T=0.333)</th>
+            <th>Glow-TTS (T=0.5)</th>
+            <th>Glow-TTS (T=0.667)</th>
+            <th>Tacotron 2</th>
+          </tr>
+          <tr>
+            <td><audio controls preload="none"><source src="wavs/lj_01_gt.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lj_01_wg.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lj_01_ours_3.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lj_01_ours_5.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lj_01_ours_6.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lj_01_taco.wav"></audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <p>The route chosen from the airport to Main Street was the normal one, except where Harwood Street was selected as the means of access to Main Street</p>
+      <table>
+        <tbody>
+          <tr>
+            <th>GT</th>
+            <th>GT(WaveGlow)</th>
+            <th>Glow-TTS (T=0.333)</th>
+            <th>Glow-TTS (T=0.5)</th>
+            <th>Glow-TTS (T=0.667)</th>
+            <th>Tacotron 2</th>
+          </tr>
+          <tr>
+            <td><audio controls preload="none"><source src="wavs/lj_02_gt.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lj_02_wg.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lj_02_ours_3.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lj_02_ours_5.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lj_02_ours_6.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lj_02_taco.wav"></audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <p>Mr. Buxton's friends at once paid the forty shillings, and the boy was released.</p>
+      <table>
+        <tbody>
+          <tr>
+            <th>GT</th>
+            <th>GT(WaveGlow)</th>
+            <th>Glow-TTS (T=0.333)</th>
+            <th>Glow-TTS (T=0.5)</th>
+            <th>Glow-TTS (T=0.667)</th>
+            <th>Tacotron 2</th>
+          </tr>
+          <tr>
+            <td><audio controls preload="none"><source src="wavs/lj_03_gt.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lj_03_wg.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lj_03_ours_3.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lj_03_ours_5.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lj_03_ours_6.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lj_03_taco.wav"></audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <p>perhaps the tales that travelers told him were exaggerated as travelers' tales are likely to be,</p>
+      <table>
+        <tbody>
+          <tr>
+            <th>GT</th>
+            <th>GT(WaveGlow)</th>
+            <th>Glow-TTS (T=0.333)</th>
+            <th>Glow-TTS (T=0.5)</th>
+            <th>Glow-TTS (T=0.667)</th>
+            <th>Tacotron 2</th>
+          </tr>
+          <tr>
+            <td><audio controls preload="none"><source src="wavs/lj_04_gt.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lj_04_wg.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lj_04_ours_3.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lj_04_ours_5.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lj_04_ours_6.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lj_04_taco.wav"></audio></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <h3>Diversity</h3>
+      <p>at a distance from the prison.</p>
+      <table>
+        <tbody>
+          <tr>
+            <th>Same gaussian noise ε, different temperature T=0.1</th>
+            <th>Same gaussian noise ε, different temperature T=0.333</th>
+            <th>Same gaussian noise ε, different temperature T=0.667</th>
+            <th>Same gaussian noise ε, different temperature T=1.0</th>
+          </tr>
+          <tr>
+            <td><audio controls preload="none"><source src="wavs/sigma_01.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/sigma_03.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/sigma_06.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/sigma_10.wav"></audio></td>
+          </tr>
+          <tr>
+            <th>Different gaussian noise ε1, same temperature T=0.667</th>
+            <th>Different gaussian noise ε2, same temperature T=0.667</th>
+            <th>Different gaussian noise ε3, same temperature T=0.667</th>
+          </tr>
+          <tr>
+            <td><audio controls preload="none"><source src="wavs/noise_06_1.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/noise_06_2.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/noise_06_3.wav"></audio></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <h3>Length Robustness</h3>
+      <p>When Mr. and Mrs. Dursley woke up on the dull, gray Tuesday our story starts, there was nothing about the cloudy sky outside to suggest that strange and mysterious things would soon be happening all over the country. Mr. Dursley hummed as he picked out his most boring tie for work, and Mrs. Dursley gossiped away happily as she wrestled a screaming Dudley into his high chair.</p>
+      <table>
+        <tbody>
+          <tr>
+            <th>Glow-TTS (T=0.667)</th>
+            <th>Tacotron 2</th>
+          </tr>
+          <tr>
+            <td><audio controls preload="none"><source src="wavs/hp_01_ours_6.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/hp_01_taco.wav"></audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <p>"Sorry," he grunted, as the tiny old man stumbled and almost fell. It was a few seconds before Mr. Dursley realized that the man was wearing a violet cloak. He didn't seem at all upset at being almost knocked to the ground. On the contrary, his face split into a wide smile and he said in a squeaky voice that made passersby stare, "Don't be sorry, my dear sir, for nothing could upset me today! Rejoice, for You-Know-Who has gone at last! Even Muggles like yourself should be celebrating, this happy, happy day!"</p>
+      <table>
+        <tbody>
+          <tr>
+            <th>Glow-TTS (T=0.667)</th>
+            <th>Tacotron 2</th>
+          </tr>
+          <tr>
+            <td><audio controls preload="none"><source src="wavs/hp_02_ours_6.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/hp_02_taco.wav"></audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <p>If the motorcycle was huge, it was nothing to the man sitting astride it. He was almost twice as tall as a normal man and at least five times as wide. He looked simply too big to be allowed, and so wild - long tangles of bushy black hair and beard hid most of his face, he had hands the size of trash can lids, and his feet in their leather boots were like baby dolphins. In his vast, muscular arms he was holding a bundle of blankets.</p>
+      <table>
+        <tbody>
+          <tr>
+            <th>Glow-TTS (T=0.667)</th>
+            <th>Tacotron 2</th>
+          </tr>
+          <tr>
+            <td><audio controls preload="none"><source src="wavs/hp_03_ours_6.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/hp_03_taco.wav"></audio></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <h3>Length Controllability</h3>
+      <p>Peter Piper picked a peck of pickled peppers. How many pickled peppers did Peter Piper pick?</p>
+      <table>
+        <tbody>
+          <tr>
+            <th>Predicted Duration x 1.50</th>
+            <th>Predicted Duration x 1.25</th>
+            <th>Predicted Duration x 1.00</th>
+            <th>Predicted Duration x 0.75</th>
+            <th>Predicted Duration x 0.50</th>
+          </tr>
+          <tr>
+            <td><audio controls preload="none"><source src="wavs/dp_01_1.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/dp_01_2.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/dp_01_3.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/dp_01_4.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/dp_01_5.wav"></audio></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>For a while the preacher addresses himself to the congregation at large, who listen attentively</p>
+      <table>
+        <tbody>
+          <tr>
+            <th>Predicted Duration x 1.50</th>
+            <th>Predicted Duration x 1.25</th>
+            <th>Predicted Duration x 1.00</th>
+            <th>Predicted Duration x 0.75</th>
+            <th>Predicted Duration x 0.50</th>
+          </tr>
+          <tr>
+            <td><audio controls preload="none"><source src="wavs/dp_02_1.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/dp_02_2.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/dp_02_3.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/dp_02_4.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/dp_02_5.wav"></audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <p>The nature of the protective assignment</p>
+      <table>
+        <tbody>
+          <tr>
+            <th>Predicted Duration x 1.50</th>
+            <th>Predicted Duration x 1.25</th>
+            <th>Predicted Duration x 1.00</th>
+            <th>Predicted Duration x 0.75</th>
+            <th>Predicted Duration x 0.50</th>
+          </tr>
+          <tr>
+            <td><audio controls preload="none"><source src="wavs/dp_03_1.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/dp_03_2.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/dp_03_3.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/dp_03_4.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/dp_03_5.wav"></audio></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <h3>Multi Speaker TTS</h3>
+      <p>Casting her eyes on a lofty mountain having on its brow a magnificent temple, she sighed and said to herself, "Perhaps my love, my lord, inhabits there," and directed her steps thither.</p>
+      <table>
+        <tbody>
+          <tr>
+            <th>GT</th>
+            <th>GT(WaveGlow)</th>
+            <th>Glow-TTS (T=0.333)</th>
+            <th>Glow-TTS (T=0.5)</th>
+            <th>Glow-TTS (T=0.667)</th>
+          </tr>
+          <tr>
+            <td><audio controls preload="none"><source src="wavs/lb_01_gt.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lb_01_wg.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lb_01_ours_3.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lb_01_ours_5.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lb_01_ours_6.wav"></audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <p>There now, only the other day, what a boar I killed, and I divided it among the Cossacks, but if I had only known, I'd have given it to you.' 'That's all right, thank you!</p>
+      <table>
+        <tbody>
+          <tr>
+            <th>GT</th>
+            <th>GT(WaveGlow)</th>
+            <th>Glow-TTS (T=0.333)</th>
+            <th>Glow-TTS (T=0.5)</th>
+            <th>Glow-TTS (T=0.667)</th>
+          </tr>
+          <tr>
+            <td><audio controls preload="none"><source src="wavs/lb_02_gt.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lb_02_wg.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lb_02_ours_3.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lb_02_ours_5.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lb_02_ours_6.wav"></audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <p>A hand is thrust out of the mist, and suddenly hands us the mysterious cup in which is contained the latent intoxication.</p>
+      <table>
+        <tbody>
+          <tr>
+            <th>GT</th>
+            <th>GT(WaveGlow)</th>
+            <th>Glow-TTS (T=0.333)</th>
+            <th>Glow-TTS (T=0.5)</th>
+            <th>Glow-TTS (T=0.667)</th>
+          </tr>
+          <tr>
+            <td><audio controls preload="none"><source src="wavs/lb_03_gt.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lb_03_wg.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lb_03_ours_3.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lb_03_ours_5.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/lb_03_ours_6.wav"></audio></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <h3>Speaker Dependent Duration</h3>
+      <p>Some have accepted this as a miracle without any physical explanation</p>
+      <table>
+        <tbody>
+          <tr>
+            <th>LibriTTS 103</th>
+            <th>LibriTTS 7178</th>
+            <th>LibriTTS 229</th>
+            <th>LibriTTS 2002</th>
+          </tr>
+          <tr>
+            <td><audio controls preload="none"><source src="wavs/sd_01_1.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/sd_01_2.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/sd_01_3.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/sd_01_4.wav"></audio></td>
+          </tr>
+        </tbody>
+      </table>
+      <p>Scientists at the CERN laboratory say they have discovered a new particle.</p>
+      <table>
+        <tbody>
+          <tr>
+            <th>LibriTTS 103</th>
+            <th>LibriTTS 7178</th>
+            <th>LibriTTS 229</th>
+            <th>LibriTTS 2002</th>
+          </tr>
+          <tr>
+            <td><audio controls preload="none"><source src="wavs/sd_02_1.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/sd_02_2.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/sd_02_3.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/sd_02_4.wav"></audio></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <h3>Voice Conversion</h3>
+      Samples on the diagonal line are recontructed samples of ground-truth mel-spectrograms through WaveGlow.
+      <table border=1>
+        <tbody>
+          <tr>
+            <th>From\To</th>
+            <th>LibriTTS 2836</th>
+            <th>LibriTTS 6476</th>
+            <th>LibriTTS 3607</th>
+            <th>LibriTTS 446</th>
+          </tr>
+          <tr>
+            <th>LibriTTS 2836</th>
+            <td><audio controls preload="none"><source src="wavs/vc_2836_2836.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/vc_2836_6476.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/vc_2836_3607.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/vc_2836_446.wav"></audio></td>
+          </tr>
+          <tr>
+            <th>LibriTTS 6476</th>
+            <td><audio controls preload="none"><source src="wavs/vc_6476_2836.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/vc_6476_6476.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/vc_6476_3607.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/vc_6476_446.wav"></audio></td>
+          </tr>
+          <tr>
+            <th>LibriTTS 3607</th>
+            <td><audio controls preload="none"><source src="wavs/vc_3607_2836.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/vc_3607_6476.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/vc_3607_3607.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/vc_3607_446.wav"></audio></td>
+          </tr>
+          <tr>
+            <th>LibriTTS 446</th>
+            <td><audio controls preload="none"><source src="wavs/vc_446_2836.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/vc_446_6476.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/vc_446_3607.wav"></audio></td>
+            <td><audio controls preload="none"><source src="wavs/vc_446_446.wav"></audio></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
